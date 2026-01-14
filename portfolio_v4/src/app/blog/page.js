@@ -7,8 +7,10 @@ export default function page() {
     <>
         <h1>Welcome to blogs</h1>
         {posts.map((post)=>{
-            return <div>
-                <h1>{post.title}</h1>
+            return <div key={post.id}>
+                <a href={`/blog/${post.id}`}>
+                    <h1>{post.title}</h1>
+                </a>
                 <p>{post.body}</p>
             </div>;
         })}
