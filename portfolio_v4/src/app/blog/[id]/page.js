@@ -1,9 +1,9 @@
 
-const firstPageArticle = () => {
-    
+const firstPageArticle = async({params}) => {
+    const { id } = await params;
 
   return (
-    <div>firstPageArticle</div>
+    <div>{`Article ID: ${id}`}</div>
   )
 }
 
