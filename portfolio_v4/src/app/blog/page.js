@@ -11,9 +11,9 @@ export default async function page() {
     <>
         <h1>Welcome to blogs</h1>
         {posts.map((post)=>{
-            return <div key={post.id}>
+            return <div className="flex gap-4 flex-wrap border" key={post.id}>
                 <Link href={`/blog/${post.id}`}>
-                    <h1>{post.title}</h1>
+                    <h1 className="text-indigo-500">ID:{post.id}:{post.title}</h1>
                 </Link>
                 <p>{post.body}</p>
             </div>;
