@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function page() {
     const posts = [
         { id: 1, title: "First Post", body: "This is the first post." },
@@ -8,9 +10,9 @@ export default function page() {
         <h1>Welcome to blogs</h1>
         {posts.map((post)=>{
             return <div key={post.id}>
-                <a href={`/blog/${post.id}`}>
+                <Link href={`/blog/${post.id}`}>
                     <h1>{post.title}</h1>
-                </a>
+                </Link>
                 <p>{post.body}</p>
             </div>;
         })}
