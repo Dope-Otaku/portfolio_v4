@@ -1,7 +1,15 @@
-import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <h1>Welcome to portfolio</h1>
+    <>
+     <nav className="flex gap-4">
+      <Link href="/">About</Link>
+      <Link href="/blog">Blog</Link>
+      <Link href="/">Projects</Link>
+      <Link href="/">Contact</Link>
+     </nav>
+    
+    </>
   );
 }
