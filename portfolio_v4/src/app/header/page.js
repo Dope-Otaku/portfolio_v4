@@ -4,10 +4,20 @@ const header = () => {
   return (
     <div>
         <nav className="flex gap-4">
+          <h2>LOCAL/46°48'2.952"N</h2>
+          
+          <div className='closeButton'>
+            <Link href="/">X</Link>
+          </div>
+
+          <div className='contactMe'>
+            <Link href="/contact">CONTACT NOW</Link>
+          </div>
+          {/* <Link href="/">Home</Link>
           <Link href="/about">About</Link>
           <Link href="/blog">Blog</Link>
           <Link href="/projects">Projects</Link>
-          <Link href="/contact">Contact</Link>
+          <Link href="/contact">Contact</Link> */}
         </nav>
     </div>
   )
