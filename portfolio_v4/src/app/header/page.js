@@ -3,14 +3,14 @@ import Link from 'next/link'
 const header = () => {
   return (
     <div>
-        <nav className="flex gap-4 bg-black-400 p-15 text-white fixed top-0 w-full">
-          <h2>LOCAL/46°48'2.952"N</h2>
+        <nav className="flex flex-row gap-4 bg-black-400 p-15 text-white fixed top-0 w-full">
+          <h2 className='basis-128'>LOCAL/46°48'2.952"N</h2>
           
-          <div className='closeButton'>
+          <div className='closeButton basis-128'>
             <Link href="/">X</Link>
           </div>
 
-          <div className='contactMe'>
+          <div className='contactMe basis-128'>
             <Link href="/contact">CONTACT NOW</Link>
           </div>
           {/* <Link href="/">Home</Link>
