@@ -6,7 +6,7 @@ const header = () => {
         <nav className="flex flex-row gap-4 bg-black-400 p-15 text-white fixed top-0 w-full">
           <h2 className='size-14 grow-1'>LOCAL/46°48'2.952"N</h2>
           
-          <div className='closeButton size-14 grow'>
+          <div className='closeButton size-14 grow bg-white-500 border-1px solid-white rounded-full h-10 w-30 flex items-center '>
             <Link href="/">X</Link>
           </div>
 
