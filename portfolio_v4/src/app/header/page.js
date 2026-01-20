@@ -14,7 +14,7 @@ const header = () => {
             <Link href="/contact">CONTACT NOW</Link>
           </div>
 
-          <ul className='flex flex-col mt-20 p-10'>
+          <ul className='flex flex-col mt-20 p-10 justify-center items-center left-0 w-full h-screen'>
             <li className=''><Link href="/about">ABOUT</Link></li>
             <li className=''><Link href="/blog">BLOG</Link></li>
             <li className=''><Link href="/projects">PROJECTS</Link></li>
