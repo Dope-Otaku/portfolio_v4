@@ -13,6 +13,12 @@ const header = () => {
           <div className='contactMe size-14 flex-none'>
             <Link href="/contact">CONTACT NOW</Link>
           </div>
+
+          <ul className='flex flex-col mt-20 p-10'>
+            <li className=''><Link href="/about">ABOUT</Link></li>
+            <li className=''><Link href="/blog">BLOG</Link></li>
+            <li className=''><Link href="/projects">PROJECTS</Link></li>
+          </ul>
           {/* <Link href="/">Home</Link>
           <Link href="/about">About</Link>
           <Link href="/blog">Blog</Link>
