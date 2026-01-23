@@ -2,7 +2,9 @@ import React from 'react'
 
 const arrowAnimation = () => {
   return (
-    <div>arrowAnimation</div>
+    <div>
+        <h1>Hi this is arrow animation page</h1>
+    </div>
   )
 }
 
